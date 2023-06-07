@@ -1,0 +1,143 @@
+.RestrauntList{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+.listItems{
+    width: 90%;
+    margin: auto;
+}
+
+.cardItems{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(232, 232, 232);
+  }
+  
+  .card-content {
+    display: flex;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .card-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .image-content {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  .image-content img{
+    width: 100%;
+    height: 75%;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-button {
+    position: absolute;
+    top: 95px;
+    right: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 3px 4px #00000029;
+    border: 0.5px solid #FF9A26;
+    border-radius: 3px;
+    opacity: 1;
+    color: #FF9A26;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .text-top-content{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+  }
+
+  .card-heading{
+    margin: 0;
+    padding-right: 15px;
+  }
+  .top-content-img1{
+    padding-right: 15px;
+  }
+  
+  .star-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #51C452 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 2px;
+    opacity: 1;
+    width: 30px;
+    height: 15px;
+  }
+
+  .star-rating span{
+    font-size: 10px;
+    padding-right: 2px;
+  }
+
+  .text-middle-content{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .vl {
+    border-left: 2px solid rgb(140, 140, 140);
+    padding-right: 15px;
+    height: 20px;
+}
+
+  .middle-content-img1{
+    width: 15px;
+    height: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+    /* UI Properties */
+    opacity: 1;
+  }
+
+  .middle-content-img2{
+    width: 15px;
+    height: 30px;
+    padding-right: 30px;
+    /* UI Properties */
+    opacity: 1;
+  }
+
+  .middle-content-text a{
+    text-decoration: none;
+  }
